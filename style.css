@@ -1,0 +1,459 @@
+
+.col-1
+{
+    width: 8.33%;
+    display: inline-block;
+}
+.col-2
+{
+    width: 16.66%;  
+    display: inline-block;  
+}
+.col-3
+{
+    width: 25%;    
+    display: inline-block;
+}
+.col-4
+{
+    width: 33.33%;
+    display: inline-block;
+}
+
+.col-5
+{
+    width: 41.66%;   
+    display: inline-block; 
+}
+.col-6
+{
+    width: 50%;
+    display: inline-block;
+}
+.col-7
+{
+    width: 58.33%;
+    display: inline-block;
+}
+.col-8
+{
+    width: 66.66%;
+    display: inline-block;
+}
+.col-9
+{
+    width: 75%;
+    display: inline-block;
+}
+.col-10
+{
+    width: 83.33%;
+    display: inline-block;
+}
+.col-11
+{
+    width: 91.66%;
+    display: inline-block;
+}
+.col-12
+{
+    width: 100%;
+}
+
+
+
+
+.background {
+    height: 265px;
+    width: 100%;
+    background-image: url('background.jpg')
+}
+
+.b
+{
+    height: 100px;
+    width: 100px;
+    background-image: url('b.png');
+}
+
+.list
+{
+    width: 80%;
+    position: absolute;
+    top: 265px;
+    left: 162px;
+    right: 162px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.annoyingmoves
+{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgb(214, 214, 214) ;
+}
+
+.title
+{
+    text-align: center;
+}
+
+.stier
+{
+    margin-left: 20px;
+}
+
+.atier
+{
+    margin-top: 45px;
+    margin-left: 20px;
+}
+
+.btier
+{
+    margin-top: 45px;
+    margin-left: 20px;
+}
+
+.ctier
+{
+    margin-top: 45px;
+    margin-left: 20px;
+}
+
+.dtier
+{
+    margin-top: 45px;
+    margin-left: 20px;
+}
+
+.ftier
+{
+    margin-top: 45px;
+    margin-left: 20px;
+}
+
+
+.zeldabutton {
+    padding:20px;
+    margin-right: 3px;
+}
+
+#onlinebutton:hover {
+    background-color: rgb(180, 0, 0);
+    color: white;
+}
+
+#offlinebutton:hover {
+    background-color: green;
+    color:white;
+}
+
+#bbutton {
+    padding-left: 35px;
+    padding-right: 35px; 
+    padding-bottom:2px;
+    margin-top: 15px;
+}
+
+#bbutton:hover {
+    background-image: url('zeldab.png');
+    background-size: contain;
+    color:white;
+    font-weight: bold;
+}
+
+.footer {
+    margin-bottom: 2px;
+}
+
+#bbutton:hover .ptagb{
+    background-color:black;
+}
+
+#retry:hover {
+    background-color:rgb(60, 60, 60);
+    color:white;
+}
+
+.movesheader
+{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+@media only screen and (min-width: 1356px)
+{
+    .tierlist
+    {
+        height: 210px;
+        width: 160px;
+        display: grid;
+        grid-template-columns: repeat(6, 25%);
+        grid-template-rows: 200px 200px;
+        grid-row-gap: 50px;
+        grid-column-gap: 140px;
+    }
+
+    #nayru
+    {
+        width: 260%;
+    }
+
+    #phantompic
+    {
+        width: 260%;
+    }
+
+    #zeldaupbpic
+    {
+        width: 260%;
+    }
+
+    #zeldawin {
+        margin-top:5%;
+        margin-left: 10%;
+    }
+}  
+
+@media only screen and (max-width: 1355px)
+{
+    .tierlist
+    {
+        width: 160px;
+        display: grid;
+        grid-template-columns: repeat(5, 25%);
+        grid-template-rows: 200px 200px;
+        grid-row-gap: 50px;
+        grid-column-gap: 140px;
+    }
+
+    #nayru
+    {
+        width: 250%;
+    }
+
+    #phantompic
+    {
+        width: 250%;
+    }
+
+    #zeldaupbpic
+    {
+        width: 250%;
+    }
+}
+
+@media only screen and (max-width: 1130px)
+{
+    .tierlist
+    {
+        width: 160px;
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        grid-template-rows: 200px 200px;
+        grid-row-gap: 50px;
+        grid-column-gap: 140px;
+    }
+
+    #nayru
+    {
+        width: 240%;
+    }
+
+    #phantompic
+    {
+        width: 240%;
+    }
+
+    #zeldaupbpic
+    {
+        width: 240%;
+    }
+}
+
+@media only screen and (max-width: 900px)
+{
+    .tierlist
+    {
+        width: 160px;
+        display: grid;
+        grid-template-columns: repeat(3, 25%);
+        grid-template-rows: 200px 200px;
+        grid-row-gap: 50px;
+        grid-column-gap: 140px;
+    }
+}
+
+@media only screen and (max-width: 685px)
+{
+    .tierlist
+    {
+        width: 160px;
+        display: grid;
+        grid-template-columns: repeat(2, 25%);
+        grid-template-rows: 200px 200px;
+        grid-row-gap: 50px;
+        grid-column-gap: 140px;
+    }
+}
+
+@media only screen and (max-width: 520px)
+{
+    .tierlist
+    {
+        width: 160px;
+        display: grid;
+        grid-template-columns: 25%;
+        grid-template-rows: 200px 200px;
+        grid-row-gap: 50px;
+        grid-column-gap: 140px;
+    }
+}
+
+.character
+{
+    padding-top: 10px;
+    border: 2px black solid;
+    border-radius: 20px; 
+    width: 150px;
+    height: 210px;
+    background-color: white;
+}
+
+.character:hover
+{
+    background-color: rgb(78, 78, 78);
+}
+
+.character a:hover
+{
+    color: white;
+}
+
+.pictures
+{
+    width: 150px;
+    height: 150px;
+}
+
+.link
+{
+    color: black;
+    text-align:center;
+    text-decoration: none;
+}
+
+
+.explain
+{
+    padding-left: 30px;
+    padding-right: 60px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.zeldaMoves
+{
+    display: grid;
+    grid-template-columns: 80% 7%;
+    grid-column-gap: 20px;
+    margin-left: 40px;
+}
+
+.movetitle
+{
+    margin-left: 37px;
+}
+
+#stiertitle
+{
+    color: rgb(255, 60, 0);
+}
+
+#atiertitle
+{
+    color: rgb(255, 115, 0);
+}
+
+#btiertitle
+{
+    color: rgb(255, 153, 0);
+}
+
+#ctiertitle
+{
+    color: rgb(255, 217, 0);
+}
+
+#dtiertitle
+{
+    color: yellowgreen;
+}
+
+#ftiertitle
+{
+    color: green;
+}
+
+
+
+
+
+.minisegment
+{
+    margin-left: 80px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+
+.minminbutton {
+    height: 110px;
+    /*width: 90px;*/
+    margin-right: 1%;
+    cursor: pointer;
+}
+
+#minminsdbutton {
+    height: 110px;
+    cursor: pointer;
+}
+
+.mariodemo {
+    height: 110px;
+    margin-right: 1%;
+    cursor: pointer;
+}
+
+.gwdemo {
+    width: 375px;
+    margin-left: 160px;
+}
+
+.everything {
+    min-height: 100%;
+    position: relative;
+}
+
+.footer {
+    background: gray;
+    color: white;
+    width: 100%;
+    height: 300px;
+    margin-top: 80%
+  }
+
+  .search {
+      position: absolute;
+      right: 5px;
+  }
